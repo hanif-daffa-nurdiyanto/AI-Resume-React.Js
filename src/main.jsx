@@ -5,7 +5,7 @@ import "./index.css";
 import App from "./App.jsx";
 import SignInPage from "./auth/sign-in/index.jsx";
 import { ClerkProvider } from "@clerk/clerk-react";
-import { Home } from "./Home/index.jsx";
+import { Home } from "./home/index.jsx";
 import { Dashboard } from "./dashboard/index..jsx";
 import DetailResume from "./detail-resume/index.jsx";
 import MyResume from "./my-resume/index.jsx";
