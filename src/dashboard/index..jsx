@@ -39,7 +39,7 @@ export function Dashboard() {
     <>
       <div>
         <Header />
-        <div className="min-h-screen bg-gradient-to-br from-blue-100 via-white to-purple-100 flex justify-between px-16">
+        <div className="h-[calc(100vh-73px)] bg-gradient-to-br from-blue-100 via-white to-purple-100 flex justify-between px-16">
           <AddResume>
             {loading ? (
               <LoadingScreen />
