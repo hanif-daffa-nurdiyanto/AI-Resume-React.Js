@@ -44,7 +44,7 @@ export function Dashboard() {
             {loading ? (
               <LoadingScreen />
             ) : (
-              resumes.map((resume) => (
+              (resumes ?? []).map((resume) => (
                 <ResumeCard key={resume.id} resume={resume} />
               ))
             )}
